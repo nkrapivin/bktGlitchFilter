@@ -53,7 +53,7 @@ uniform float dispersion;      // color channel horizontal dispersion
 uniform float channelShift;    // horizontal RGB shift
 uniform float noiseLevel;      // level of noise
 uniform float shakiness;       // horizontal shakiness
-uniform float timemul : register(c19); // time multiplier factor (0-1)
+uniform float timemul; // time multiplier factor (0-1)
 //
 
 vec4 extractRed(vec4 col){
