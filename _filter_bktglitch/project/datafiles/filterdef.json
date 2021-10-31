@@ -1,0 +1,176 @@
+{
+    "name": "_filter_bktglitch",
+    "displayname": "bktGlitch",
+    "type": "filter",
+    "parameters": [
+        {
+            "name": "timemul",
+            "displayname": "Time multiplier",
+            "type": "float",
+            "elements": 1,
+			"arraysize": 0,
+			"default": 1.0,
+            "min": 0.0,
+            "max": 1.0
+        },
+        {
+            "name": "intensity",
+            "displayname": "Intensity",
+            "type": "float",
+            "elements": 1,
+			"arraysize": 0,
+			"default": 1.0,
+            "min": 0.0,
+            "max": 5.0
+        },
+		{
+            "name": "rngSeed",
+            "displayname": "RNG seed",
+            "type": "float",
+            "elements": 1,
+			"arraysize": 0,
+			"default": 0.3,
+            "min": 0.0,
+            "max": 1.0
+        },
+		{
+            "name": "noiseTexture",
+            "displayname": "Noise texture",
+            "type": "sampler",
+            "elements": 1,
+			"arraysize": 0,
+			"default": "_filter_bktglitch_noise",
+            "options": "repeat"
+        },
+        {
+            "name": "lineSpeed",
+            "displayname": "Line speed",
+            "type": "float",
+            "elements": 1,
+			"arraysize": 0,
+			"default": 0.01,
+            "min": 0.0,
+            "max": 0.5
+        },
+        {
+            "name": "lineDrift",
+            "displayname": "Line drift",
+            "type": "float",
+            "elements": 1,
+			"arraysize": 0,
+			"default": 0.1,
+            "min": 0.0,
+            "max": 1.0
+        },
+        {
+            "name": "lineResolution",
+            "displayname": "Line resolution",
+            "type": "float",
+            "elements": 1,
+			"arraysize": 0,
+			"default": 1.0,
+            "min": 0.0,
+            "max": 3.0
+        },
+        {
+            "name": "lineVertShift",
+            "displayname": "Line vert. shift",
+            "type": "float",
+            "elements": 1,
+			"arraysize": 0,
+			"default": 0.0,
+            "min": 0.0,
+            "max": 1.0
+        },
+        {
+            "name": "lineShift",
+            "displayname": "Line shift",
+            "type": "float",
+            "elements": 1,
+			"arraysize": 0,
+			"default": 0.004,
+            "min": 0.0,
+            "max": 0.05
+        },
+        {
+            "name": "jumbleness",
+            "displayname": "Jumbleness",
+            "type": "float",
+            "elements": 1,
+			"arraysize": 0,
+			"default": 0.2,
+            "min": 0.0,
+            "max": 1.0
+        },
+        {
+            "name": "jumbleResolution",
+            "displayname": "Jumble resolution",
+            "type": "float",
+            "elements": 1,
+			"arraysize": 0,
+			"default": 0.23333333,
+            "min": 0.0,
+            "max": 1.0
+        },
+        {
+            "name": "jumbleShift",
+            "displayname": "Jumble shift",
+            "type": "float",
+            "elements": 1,
+			"arraysize": 0,
+			"default": 0.16,
+            "min": 0.0,
+            "max": 1.0
+        },
+        {
+            "name": "jumbleSpeed",
+            "displayname": "Jumble speed",
+            "type": "float",
+            "elements": 1,
+			"arraysize": 0,
+			"default": 0.166667,
+            "min": 0.0,
+            "max": 25.0
+        },
+        {
+            "name": "dispersion",
+            "displayname": "Dispersion",
+            "type": "float",
+            "elements": 1,
+			"arraysize": 0,
+			"default": 0.0025,
+            "min": 0.0,
+            "max": 0.5
+        },
+        {
+            "name": "channelShift",
+            "displayname": "Channel shift",
+            "type": "float",
+            "elements": 1,
+			"arraysize": 0,
+			"default": 0.004,
+            "min": 0.0,
+            "max": 0.05
+        },
+        {
+            "name": "noiseLevel",
+            "displayname": "Noise level",
+            "type": "float",
+            "elements": 1,
+			"arraysize": 0,
+			"default": 0.5,
+            "min": 0.0,
+            "max": 1.0
+        },
+        {
+            "name": "shakiness",
+            "displayname": "Shakiness",
+            "type": "float",
+            "elements": 1,
+			"arraysize": 0,
+			"default": 0.5,
+            "min": 0.0,
+            "max": 10.0
+        },
+    ]
+}

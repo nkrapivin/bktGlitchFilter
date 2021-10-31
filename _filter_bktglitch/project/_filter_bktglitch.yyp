@@ -1,0 +1,34 @@
+{
+  "resources": [
+    {"id":{"name":"_filter_bktglitch_noise","path":"sprites/_filter_bktglitch_noise/_filter_bktglitch_noise.yy",},"order":0,},
+    {"id":{"name":"_filter_bktglitch_shader","path":"shaders/_filter_bktglitch_shader/_filter_bktglitch_shader.yy",},"order":1,},
+  ],
+  "isDnDProject": false,
+  "isEcma": false,
+  "tutorialPath": "",
+  "configs": {
+    "name": "Default",
+    "children": [],
+  },
+  "RoomOrderNodes": [],
+  "Folders": [
+    {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Shaders.yy","order":2,"resourceVersion":"1.0","name":"Shaders","tags":[],"resourceType":"GMFolder",},
+  ],
+  "AudioGroups": [
+    {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
+  ],
+  "TextureGroups": [
+    {"isScaled":false,"autocrop":false,"border":0,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
+  ],
+  "IncludedFiles": [
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"filterdef.json","resourceType":"GMIncludedFile",},
+  ],
+  "MetaData": {
+    "IDEVersion": "9.2.1.2678",
+  },
+  "resourceVersion": "1.4",
+  "name": "_filter_bktglitch",
+  "tags": [],
+  "resourceType": "GMProject",
+}
